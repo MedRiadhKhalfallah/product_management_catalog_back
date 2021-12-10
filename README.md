@@ -20,15 +20,15 @@ Prérequis sur votre machine pour le bon fonctionnement de ce projet :
 ## Installation
 
 
-Après avoir cloné le projet avec git clone https://github.com/MedRiadhKhalfallah/product_management_catalog_back.git
+Après avoir cloné le projet avec <code>git clone https://github.com/MedRiadhKhalfallah/product_management_catalog_back.git</code>
 
-Exécutez la commande <b> cd product_management_catalog_back </b>pour vous rendre dans le dossier depuis le terminal.
+Exécutez la commande <code>cd product_management_catalog_back</code> pour vous rendre dans le dossier depuis le terminal.
 
 Ensuite, dans l'ordre taper les commandes dans votre terminal :
 
-1 composer install afin d'installer toutes les dépendances composer du projet.
+1 <code>composer install</code> afin d'installer toutes les dépendances composer du projet.
 
-2 installer la base de donnée MySQL : Créer une table nommée "managementcatalog" , rdv dans le fichier .env du projet, et modifier la variable d'environnement :
+2 installer la base de donnée MySQL : Créer une table nommée "<b>managementcatalog</b>" , rdv dans le fichier .env du projet, et modifier la variable d'environnement :
 <br>
 <code>
 DB_CONNECTION=mysql</code><br><code>  
@@ -39,8 +39,8 @@ DB_USERNAME=root</code><br><code>
 DB_PASSWORD=
 </code>
 
-3 Exécuter la migration en base de donnée : php artisan migrate
+3 Exécuter la migration en base de donnée : <code>php artisan migrate</code>
 
-4 Vous pouvez maintenant accéder à votre application en vous connectant au serveur : php artisan serve
+4 Vous pouvez maintenant accéder à votre application en vous connectant au serveur : <code>php artisan serve</code>
 
 
